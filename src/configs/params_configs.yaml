@@ -1,0 +1,14 @@
+model:
+  num_channels: [20, 20, 20]
+  num_levels: 3
+  num_classes: 3
+
+train:
+  optimizer:
+    name: adam
+    lr: 9.880820256268033e-05
+  loss:
+    name: cross_entropy
+    use_class_weight: true   
+  epochs: 50
+  batch_size: 32
